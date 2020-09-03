@@ -10,13 +10,18 @@
     canvas {
     border: 2px solid #d04747;
     background-color: #d29751;
-        align-content: center;
+        display: block;
+        margin: auto;
 }
 </style>
-<body onload="startGame()">
-<h2>Dùng các phím mũi tên để di chuyển con chim</h2>
-<div id="gameover" style="width: 571px; height: 200px; font-size: 94px;color: whitesmoke; position: absolute; left:265px; top:320px" ></div>
+<body onload="startGame()" background="background2.png">
+<h1 style="text-align: center;color: black">Dùng các phím mũi tên để di chuyển con chim</h1>
+<div id="gameover" style="width: 571px; height: 200px; font-size: 94px;color: black; position: absolute; left:700px; top:320px" ></div>
 <br>
+<button style="margin-left: 48%; text-align: center" onclick="window.location.reload()" >RESTART</button>
+<audio autoplay>
+    <source src="NemesisFinalMetamorphosisResidentEvil3NemesisOST-VA-4485480.mp3">
+</audio>
 
 <script src="StartGame.js"></script>
 <script src="Component.js"></script>

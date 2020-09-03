@@ -52,4 +52,23 @@ function Component(width,height,color,x,y,type){
         }
         return crash;
     }
+    this.crashCanvas= function (){
+        let myleft= this.x;
+        let myright= this.x + this.width;
+        let mytop= this.y;
+        let mybottom= this.y + this.height;
+        if (myleft<0){this.x=0}
+        if(mytop<0){this.y=0}
+        if (mybottom>myGameArea.canvas.height){
+            mybottom = myGameArea.canvas.height
+        }
+        if (myright>myGameArea.canvas.width){
+            myright=myGameArea.canvas.width
+        }
+    }
+    // this.clearComponent=function (){
+    //     this.x=10;
+    //     this.y=300;
+    //     this.update();
+    // }
 }

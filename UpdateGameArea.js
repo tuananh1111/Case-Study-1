@@ -7,6 +7,9 @@ function updateGameArea() {
             return;
         }
     }
+    if (myGamePiece.crashCanvas()){
+        return true;
+    }
     myGameArea.clear();
     myBackground.newPos();
     myBackground.update();
@@ -19,8 +22,8 @@ function updateGameArea() {
         let maxHeight= 600;
         let height= Math.floor(Math.random()*(maxHeight-minHeight+1)+minHeight);
         let gap=150;
-        myObstacles.push(new Component(60,height, "gray",x,0));
-        myObstacles.push(new Component(60,y-height-gap, "gray",x,height+gap));
+        myObstacles.push(new Component(60,height, "yellow",x,0));
+        myObstacles.push(new Component(60,y-height-gap, "yellow",x,height+gap));
 
     }
     for (let i=0; i<myObstacles.length;i++){
