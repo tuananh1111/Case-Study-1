@@ -68,7 +68,10 @@ function updateGameArea() {
     myGamePiece.update();
     myScore.text="Score: "+ (myGameArea.frameNo);
     myScore.update();
-
+    if(myGameArea.frameNo>500){
+        clearInterval(this.interval);
+        this.interval= setInterval(updateGameArea,10);
+    }
 }
 function everyInterval(n){
     if((myGameArea.frameNo / n) % 1 == 0){
