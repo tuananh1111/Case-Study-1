@@ -31,11 +31,7 @@ function Component(width,height,color,x,y,type){
     this.newPos= function (){
         this.x+=this.speedX;
         this.y+=this.speedY;
-        // if (this.type =="background"){
-        //     if(this.x == -(this.width)){
-        //         this.x=0;
-        //     }
-        // }
+
     }
     this.crashWith=function (otherobject){
         let myleft = this.x;
@@ -60,15 +56,8 @@ function Component(width,height,color,x,y,type){
         if (myleft<0){this.x=0}
         if(mytop<0){this.y=0}
         if (mybottom>myGameArea.canvas.height){
-            mybottom = myGameArea.canvas.height
-        }
+            mybottom = myGameArea.canvas.height}
         if (myright>myGameArea.canvas.width){
-            myright=myGameArea.canvas.width
-        }
+            myright=myGameArea.canvas.width}
     }
-    // this.clearComponent=function (){
-    //     this.x=10;
-    //     this.y=300;
-    //     this.update();
-    // }
 }

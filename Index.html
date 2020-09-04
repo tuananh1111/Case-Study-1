@@ -14,18 +14,19 @@
         margin: auto;
 }
 </style>
-<body onload="startGame()" background="background2.png">
+<body onload="startGame()" background="img/background2.png">
+<!--<canvas id="myCanvas" width="1000"; height="750"></canvas>-->
 <h1 style="text-align: center;color: black">Dùng các phím mũi tên để di chuyển con chim</h1>
 <div id="gameover" style="width: 571px; height: 200px; font-size: 94px;color: black; position: absolute; left:700px; top:320px" ></div>
 <br>
 <button style="margin-left: 48%; text-align: center" onclick="window.location.reload()" >RESTART</button>
 <audio autoplay>
-    <source src="NemesisFinalMetamorphosisResidentEvil3NemesisOST-VA-4485480.mp3">
+    <source src="Js/NemesisFinalMetamorphosisResidentEvil3NemesisOST-VA-4485480.mp3">
 </audio>
 
-<script src="StartGame.js"></script>
-<script src="Component.js"></script>
-<script src="MyGameArea.js"></script>
-<script src="UpdateGameArea.js"></script>
+<script src="Js/MainGame.js"></script>
+<script src="Js/Component.js"></script>
+<script src="Js/MyGameArea.js"></script>
+<script src="Js/UpdateGameArea.js"></script>
 </body>
 </html>
