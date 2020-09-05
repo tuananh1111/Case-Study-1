@@ -4,6 +4,7 @@
     <list default="true" id="11018260-974a-4c78-877f-bcc881c40ca0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Js/MainGame.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/MainGame.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js/MyGameArea.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/MyGameArea.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -36,11 +38,18 @@
       <workItem from="1599186229971" duration="876000" />
       <workItem from="1599187833707" duration="751000" />
       <workItem from="1599193516482" duration="1098000" />
-      <workItem from="1599194870669" duration="452000" />
+      <workItem from="1599194870669" duration="669000" />
+      <workItem from="1599201385877" duration="3076000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="205" key="SettingsEditor" timestamp="1599201407371">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="461" y="205" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1599201407371" />
   </component>
 </project>
